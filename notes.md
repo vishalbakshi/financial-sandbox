@@ -14,6 +14,9 @@ Additionally, Dan Abramov started his own blog recently, and I am generally inte
 Some of the content is not beginner-friendly, as he disclaims from the start of <a href="https://overreacted.io/react-as-a-ui-runtime/" target="_blank">this article</a>, but he is still able to impart meaningful concepts that helped my understanding
 of React even during the duration of this project. 
 
+Some nuggets:
+
+<blockquote>I like to think of React elements as being like frames in a movie. They capture what the UI should look like at a specific point in time. They don’t change.</blockquote>
 
 
 ## Other References
