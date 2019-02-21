@@ -7,7 +7,7 @@ In general, when working with React I try to find opportunities to exercise thes
 
 <a href="https://reactjs.org/docs/thinking-in-react.html" target="_blank">Thinking In React</a>
 
-...paticularly when I fall into the trap of premature optimization, reminders such as the following are beneficial:
+...particularly when I fall into the trap of premature optimization, reminders such as the following are beneficial:
 
 <blockquote>Figure out the absolute minimal representation of the state your application needs and compute everything else you need on-demand.</blockquote>
 
