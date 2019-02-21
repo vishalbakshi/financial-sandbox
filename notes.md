@@ -3,7 +3,7 @@
 I intentionally used none, some, most or all of the ideas and concepts from the resources listed in this file.
 Uninentionally, I have probably gleaned and conflated concepts they benevolently introduced, so if you're wondering "wait, why did he do this?" this explains why.
 
-In general, when working with React I try to find examples that align with these ideas:
+In general, when working with React I try to find opportunities to exercise these ideas:
 
 <a href="https://reactjs.org/docs/thinking-in-react.html" target="_blank">Thinking In React</a>
 
