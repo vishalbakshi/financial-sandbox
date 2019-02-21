@@ -20,7 +20,7 @@ Some nuggets:
 
 <blockquote>If an element type in the same place in the tree “matches up” between the previous and the next renders, React reuses the existing host instance.</blockquote>
 
-<blockquote>A key tells React that it should consider an item to be conceptually the same even if it has different positions inside its parent element between renders.</blockquote>
+<blockquote>What’s a good value for a key? An easy way to answer this is to ask: when would you say an item is the “same” even if the order changed? For example, in our shopping list, the product ID uniquely identifies it between siblings.</blockquote>
 
 ## Other References
 
