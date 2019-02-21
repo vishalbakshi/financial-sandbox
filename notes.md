@@ -18,6 +18,9 @@ Some nuggets:
 
 <blockquote>I like to think of React elements as being like frames in a movie. They capture what the UI should look like at a specific point in time. They don’t change.</blockquote>
 
+<blockquote>If an element type in the same place in the tree “matches up” between the previous and the next renders, React reuses the existing host instance.</blockquote>
+
+<blockquote>A key tells React that it should consider an item to be conceptually the same even if it has different positions inside its parent element between renders.</blockquote>
 
 ## Other References
 
