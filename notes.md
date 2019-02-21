@@ -3,9 +3,13 @@
 I intentionally used none, some, most or all of the ideas and concepts from the resources listed in this file.
 Uninentionally, I have probably gleaned and conflated concepts they benevolently introduced, so if you're wondering "wait, why did he do this?" this explains why.
 
-In general, when working with React I try to find opportunities to exercise these ideas:
+In general, when working with React I try to find opportunities to exercise these ideas...
 
 <a href="https://reactjs.org/docs/thinking-in-react.html" target="_blank">Thinking In React</a>
+
+...paticularly when I fall into the trap of premature optimization, reminders such as the following are beneficial:
+
+<blockquote>Figure out the absolute minimal representation of the state your application needs and compute everything else you need on-demand.</blockquote>
 
 Additionally, Dan Abramov started his own blog recently, and I am generally interested in and inspired by most things he has to say about web development:
 
