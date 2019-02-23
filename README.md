@@ -20,3 +20,7 @@ Core Functionality:
 Core Functionality Visual:
 
 <img src="PersonalFinanceAppMockUp.png"/>
+
+Core Functionality Components:
+
+<img src="PersonalFinanceAppComponents.png" />
