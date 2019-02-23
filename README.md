@@ -36,4 +36,6 @@ Core Functionality Components:
 
 Version 1 (Static)
 
-<img src="version1.png" />
+The first version I created was quite barebones, but allowed me to wrap my head around how the components above would translate to code. I also got a chance to play around with the attributes of the `polygon` element:
+
+<img src="Version1.gif" />
