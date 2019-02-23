@@ -27,7 +27,7 @@ Core Functionality Components:
 
 1. <strong>PersonalFinanceVisualization (cyan):</strong> contains the entirety of the app
 2. <strong>TriangleDisplay (hot pink):</strong> displays triangles
-3. <strong>Triangle (black):</strong> visual representation currency amount based on user input
+3. <strong>Triangle (black):</strong> visual representation of currency amount based on user input
 4. <strong>GrossMonthlyIncomeCalculator (dark green):</strong> displays all components related to Gross Monthly Income
 5. <strong>GrossMonthlyIncomeDisplay (yellow):</strong> displays the Gross Monthly Income
 6. <strong>MultiplierSelector (orange):</strong> receives user input
