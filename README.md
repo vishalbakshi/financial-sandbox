@@ -24,3 +24,12 @@ Core Functionality Visual:
 Core Functionality Components:
 
 <img src="PersonalFinanceAppComponents.png" />
+
+1. PersonalFinanceVisualization (cyan): contains the entirety of the app
+2. TriangleDisplay (hot pink): displays triangles
+3. Triangle (black): visual representation currency amount based on user input
+4. GrossMonthlyIncomeCalculator (dark green): displays all components related to Gross Monthly Income
+5. GrossMonthlyIncomeDisplay (yellow): displays the Gross Monthly Income
+6. MultiplierSelector (orange): receives user input
+7. ExpenseTable (dark blue): contains ExpenseInput components
+8. ExpenseInput (purple): receives user input
