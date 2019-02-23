@@ -33,3 +33,7 @@ Core Functionality Components:
 6. <strong>MultiplierSelector (orange):</strong> receives user input
 7. <strong>ExpenseTable (dark blue):</strong> contains ExpenseInput components
 8. <strong>ExpenseInput (purple):</strong> receives user input
+
+Version 1 (Static)
+
+<img src="version1.png" />
