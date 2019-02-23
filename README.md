@@ -10,9 +10,13 @@ The purpose of this repo is to try out different financial JS libraries
 ### React + Dinero.js
 I decided to create a React app which displays examples of Dinero.js with some pleasant visuals.
 
-As always, here's my outline of the Core Functionality:
+Core Functionality:
 
 - What is the most annoying task to do manually?
   - Perform arithmetic by hand
 - What is the next most annoying task to do manually?
   - Update the visualization to match the arithmetic's result
+
+Core Functionality Visual:
+
+<img src="PersonalFinanceAppMockUp.png"/>
