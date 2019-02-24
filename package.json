@@ -2,13 +2,20 @@
   "name": "financial-sandbox",
   "version": "0.0.0",
   "main": "index.js",
+  "scripts": {
+    "test": "mocha --exit --ui bdd ./components/UniTests.js"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/vishalbakshi/financial-sandbox.git"
   },
   "license": "MIT",
   "dependencies": {
+    "chai": "4.2.0",
+    "enzyme": "3.9.0",
+    "enzyme-adapter-react-16": "1.9.1",
     "react": "16.8.3",
-    "react-dom": "16.8.3"
+    "react-dom": "16.8.3",
+    "sinon": "7.2.4"
   }
 }
