@@ -39,3 +39,13 @@ Version 1 (Static)
 The first version I created was quite barebones, but allowed me to wrap my head around how the components above would translate to code. I also got a chance to play around with the attributes of the `polygon` element:
 
 <img src="Version1.gif" />
+
+Version 2 (with state)
+
+The two pieces of data that can change over time and cannot be calculated by any other props are:
+
+1. Expenses (user input values)
+2. Multiplier (user input value)
+
+The Triangle renders an SVG based on the value of an Expense, while the GrossMonthlyIncomeDisplay renders the product of the Multiplier and the sum of Expenses as text. The common parent (or rather, grandparent) for these two components is the PersonalFinanceVisualization component, so it will hold the state.
+
