@@ -34,13 +34,13 @@ Core Functionality Components:
 7. <strong>ExpenseTable (dark blue):</strong> contains ExpenseInput components
 8. <strong>ExpenseInput (purple):</strong> receives user input
 
-Version 1 (Static)
+<strong>Version 1 (Static)</strong>
 
 The first version I created was quite barebones, but allowed me to wrap my head around how the components above would translate to code. I also got a chance to play around with the attributes of the `polygon` element:
 
 <img src="Version1.gif" />
 
-Version 2 (with state)
+<strong>Version 2 (with state)</strong>
 
 The two pieces of data that can change over time and cannot be calculated by any other props are:
 
