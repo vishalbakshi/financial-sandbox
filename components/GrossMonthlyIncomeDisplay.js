@@ -6,7 +6,7 @@ class GrossMonthlyIncomeDisplay extends React.Component {
   render() {
     return (
       <div>
-        <p>Gross Monthly Income</p>
+        <p>{this.props.grossMonthlyIncome}</p>
       </div>
     );
   }

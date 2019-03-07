@@ -13,6 +13,7 @@ class PersonalFinanceVisualization extends React.Component {
       multiplier: 1.0
     };
     this.handleExpenseChange = this.handleExpenseChange.bind(this);
+    this.handleMultiplierChange = this.handleMultiplierChange.bind(this);
   }
 
   handleExpenseChange(expense, index) {
@@ -27,6 +28,12 @@ class PersonalFinanceVisualization extends React.Component {
     });
   }
 
+  handleMultiplierChange(multiplier) {
+    this.setState({
+      multiplier: multiplier
+    });
+  }
+
   render() {
     console.log(this.state.expenses);
     return (
@@ -35,6 +42,7 @@ class PersonalFinanceVisualization extends React.Component {
         <GrossMonthlyIncomeCalculator
           expenses={this.state.expenses}
           multiplier={this.state.multiplier}
+          onChange={this.handleMultiplierChange}
         />
         <ExpenseTable
           onChange={this.handleExpenseChange}
