@@ -1,3 +1,5 @@
+"use strict";
+
 import React from "react";
 
 class Triangle extends React.Component {

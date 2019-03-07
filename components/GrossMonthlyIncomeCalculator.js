@@ -1,13 +1,15 @@
+"use strict";
+
 import React from "react";
 import GrossMonthlyIncomeDisplay from "./GrossMonthlyIncomeDisplay";
-import Multiplier from "./MultiplierSelector";
+import MultiplierSelector from "./MultiplierSelector";
 
 class GrossMonthlyIncomeCalculator extends React.Component {
   render() {
     return (
       <div>
         <GrossMonthlyIncomeDisplay />
-        <Multiplier />
+        <MultiplierSelector multiplier={this.props.multiplier} />
       </div>
     );
   }

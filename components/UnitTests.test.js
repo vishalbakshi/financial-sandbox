@@ -1,3 +1,5 @@
+"use strict";
+
 // Bring in the libraries
 import React from "react";
 import { expect } from "chai";
@@ -14,7 +16,7 @@ import MultiplierSelector from "./MultiplierSelector";
 import ExpenseTable from "./ExpenseTable";
 import ExpenseInput from "./ExpenseInput";
 
-it("All components are Functions", () => {
+it("All components are Functions", function() {
   expect(PersonalFinanceVisualization).to.be.a("Function");
   expect(TriangleDisplay).to.be.a("Function");
   expect(Triangle).to.be.a("Function");
