@@ -35,7 +35,6 @@ class PersonalFinanceVisualization extends React.Component {
   }
 
   render() {
-    console.log(this.state.expenses);
     return (
       <div>
         <TriangleDisplay expenses={this.state.expenses} />
