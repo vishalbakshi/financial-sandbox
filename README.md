@@ -47,5 +47,6 @@ The two pieces of data that can change over time and cannot be calculated by any
 1. Expenses (user input values)
 2. Multiplier (user input value)
 
-The <em>Triangle</em> renders an SVG based on the value of an Expense, while the <em>GrossMonthlyIncomeDisplay</em> renders the product of the Multiplier and the sum of Expenses as text. The common parent (or rather, grandparent) for these two components is the PersonalFinanceVisualization component, so it will hold the state.
+The <em>Triangle</em> will eventually render an SVG based on the value of the corresponding Expense, while the <em>GrossMonthlyIncomeDisplay</em> renders the product of the Multiplier and the sum of Expenses as text. The common parent (or rather, grandparent) for these two components is the PersonalFinanceVisualization component, so it holds the state:
 
+<img src="Version2.gif" />
